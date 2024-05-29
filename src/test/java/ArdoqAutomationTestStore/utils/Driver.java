@@ -49,23 +49,4 @@ public class Driver {
             driver= null;
         }
     }
-
-    /*            public void headlessModeJenkins(String url){
-                ChromeOptions options= new ChromeOptions();
-                if (SystemUtils.IS_OS_LINUX){
-                    System.out.println("Running the UI Test in a headless mode");
-                    System.setProperty("webDriver.http.factory", "jdk-http-client");
-                    options.addArguments("--heeadless");
-                    options.addArguments("window-size=1200,1080");
-                    options.addArguments("disable-gpu");
-                }
-
-                options.setPageLoadStrategy(PageLoadStrategy.NORMAL);
-                driver= new ChromeDriver(options);
-                if (SystemUtils.IS_OS_MAC_OSX || SystemUtils.IS_OS_WINDOWS){
-                    System.out.println("Running the UI Test in UI mode");
-                    driver.manage().window().maximize();
-                }
-                driver.getCurrentUrl();
-            }*/
 }
