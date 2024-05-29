@@ -30,5 +30,4 @@ public class BasePage {
         uiUtil.clickElement(element);
     }
 
-
 }
